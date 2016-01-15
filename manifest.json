@@ -1,0 +1,12 @@
+{
+  "name": "Duolexia",
+  "description": "Special font to aid people suffering form dyslexia on duolingo.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.duolingo.com/*"],
+      "css": ["fonts.css"]
+    }
+  ]
+}
